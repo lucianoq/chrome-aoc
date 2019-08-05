@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Advent of Code Utils",
+  "version": "0.1",
+  "description": "Advent of Code Utils Description",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://adventofcode.com/*"
+      ],
+      "js": [
+        "jquery-3.4.1.slim.min.js",
+        "content.js"
+      ]
+    }
+  ]
+}
