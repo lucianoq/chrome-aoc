@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Advent of Code Utils",
-  "version": "0.1",
-  "description": "Advent of Code Utils Description",
+  "name": "Advent of Code Chrome Extension",
+  "version": "0.3",
+  "description": "Advent of Code Chrome Extension",
   "content_scripts": [
     {
       "matches": [
