@@ -15,7 +15,7 @@ var moveYear = function (delta) {
 
     var re = /201./;
 
-    var year = 2018;
+    var year = 2019;
     var yearFields = url.match(re);
     if (yearFields != null) {
         year = parseInt(yearFields[0], 10);
@@ -23,7 +23,7 @@ var moveYear = function (delta) {
 
     var newYear = year + delta;
 
-    if (newYear < 2015 || newYear > 2018) {
+    if (newYear < 2015 || newYear > 2019) {
         return;
     }
 
