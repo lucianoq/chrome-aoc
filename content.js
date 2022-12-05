@@ -13,9 +13,9 @@ $('header').append(elem);
 var moveYear = function (delta) {
     var url = window.location.href;
 
-    var re = /201./;
+    var re = /20../;
 
-    var year = 2019;
+    var year = 2022;
     var yearFields = url.match(re);
     if (yearFields != null) {
         year = parseInt(yearFields[0], 10);
@@ -23,7 +23,7 @@ var moveYear = function (delta) {
 
     var newYear = year + delta;
 
-    if (newYear < 2015 || newYear > 2019) {
+    if (newYear < 2015 || newYear > 2022) {
         return;
     }
 
