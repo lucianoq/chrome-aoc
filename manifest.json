@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Advent of Code Chrome Extension",
   "version": "0.3",
   "description": "Advent of Code Chrome Extension",
