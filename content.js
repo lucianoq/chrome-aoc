@@ -52,7 +52,7 @@ let moveYear = function (delta) {
 
     let newYear = year + delta;
 
-    if (newYear < 2015 || newYear > 2022) {
+    if (newYear < 2015 || newYear > 2023) {
         return;
     }
 
